@@ -1,0 +1,188 @@
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\bin\Debug\net6.0\appsettings.Development.json
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\bin\Debug\net6.0\appsettings.json
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\bin\Debug\net6.0\Bloggie Web.staticwebassets.runtime.json
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\bin\Debug\net6.0\Bloggie Web.exe
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\bin\Debug\net6.0\Bloggie Web.deps.json
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\bin\Debug\net6.0\Bloggie Web.runtimeconfig.json
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\bin\Debug\net6.0\Bloggie Web.dll
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\bin\Debug\net6.0\Bloggie Web.pdb
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\bin\Debug\net6.0\Azure.Core.dll
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\bin\Debug\net6.0\Azure.Identity.dll
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\bin\Debug\net6.0\Humanizer.dll
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\bin\Debug\net6.0\Mono.TextTemplating.dll
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\bin\Debug\net6.0\System.CodeDom.dll
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\bin\Debug\net6.0\System.Memory.Data.dll
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\bin\Debug\net6.0\System.Text.Json.dll
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\obj\Debug\net6.0\Bloggie Web.csproj.AssemblyReference.cache
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\obj\Debug\net6.0\Bloggie Web.GeneratedMSBuildEditorConfig.editorconfig
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\obj\Debug\net6.0\Bloggie Web.AssemblyInfoInputs.cache
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\obj\Debug\net6.0\Bloggie Web.AssemblyInfo.cs
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\obj\Debug\net6.0\Bloggie Web.csproj.CoreCompileInputs.cache
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\obj\Debug\net6.0\Bloggie Web.MvcApplicationPartsAssemblyInfo.cache
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\obj\Debug\net6.0\Bloggie Web.RazorAssemblyInfo.cache
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\obj\Debug\net6.0\Bloggie Web.RazorAssemblyInfo.cs
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\obj\Debug\net6.0\staticwebassets\msbuild.Bloggie Web.Microsoft.AspNetCore.StaticWebAssets.props
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\obj\Debug\net6.0\staticwebassets\msbuild.build.Bloggie Web.props
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Bloggie Web.props
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Bloggie Web.props
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\obj\Debug\net6.0\staticwebassets.pack.json
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\obj\Debug\net6.0\staticwebassets.build.json
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\obj\Debug\net6.0\staticwebassets.development.json
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\obj\Debug\net6.0\scopedcss\bundle\Bloggie Web.styles.css
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\obj\Debug\net6.0\scopedcss\projectbundle\Bloggie Web.bundle.scp.css
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\obj\Debug\net6.0\Bloggie Web.dll
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\obj\Debug\net6.0\refint\Bloggie Web.dll
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\obj\Debug\net6.0\Bloggie Web.pdb
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\obj\Debug\net6.0\Bloggie Web.genruntimeconfig.cache
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\obj\Debug\net6.0\ref\Bloggie Web.dll
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\bin\Debug\net6.0\CloudinaryDotNet.dll
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+D:\VisualStudio\ASP_Project\WebApi\Bloggie\Bloggie Web\obj\Debug\net6.0\Bloggie .8FB977A1.Up2Date
+D:\FPT\Semester 7\Bloggie\Bloggie Web\bin\Debug\net6.0\appsettings.Development.json
+D:\FPT\Semester 7\Bloggie\Bloggie Web\bin\Debug\net6.0\appsettings.json
+D:\FPT\Semester 7\Bloggie\Bloggie Web\bin\Debug\net6.0\Bloggie Web.staticwebassets.runtime.json
+D:\FPT\Semester 7\Bloggie\Bloggie Web\bin\Debug\net6.0\Bloggie Web.exe
+D:\FPT\Semester 7\Bloggie\Bloggie Web\bin\Debug\net6.0\Bloggie Web.deps.json
+D:\FPT\Semester 7\Bloggie\Bloggie Web\bin\Debug\net6.0\Bloggie Web.runtimeconfig.json
+D:\FPT\Semester 7\Bloggie\Bloggie Web\bin\Debug\net6.0\Bloggie Web.dll
+D:\FPT\Semester 7\Bloggie\Bloggie Web\bin\Debug\net6.0\Bloggie Web.pdb
+D:\FPT\Semester 7\Bloggie\Bloggie Web\bin\Debug\net6.0\Azure.Core.dll
+D:\FPT\Semester 7\Bloggie\Bloggie Web\bin\Debug\net6.0\Azure.Identity.dll
+D:\FPT\Semester 7\Bloggie\Bloggie Web\bin\Debug\net6.0\CloudinaryDotNet.dll
+D:\FPT\Semester 7\Bloggie\Bloggie Web\bin\Debug\net6.0\Humanizer.dll
+D:\FPT\Semester 7\Bloggie\Bloggie Web\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\FPT\Semester 7\Bloggie\Bloggie Web\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\FPT\Semester 7\Bloggie\Bloggie Web\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\FPT\Semester 7\Bloggie\Bloggie Web\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\FPT\Semester 7\Bloggie\Bloggie Web\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\FPT\Semester 7\Bloggie\Bloggie Web\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\FPT\Semester 7\Bloggie\Bloggie Web\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\FPT\Semester 7\Bloggie\Bloggie Web\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\FPT\Semester 7\Bloggie\Bloggie Web\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\FPT\Semester 7\Bloggie\Bloggie Web\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\FPT\Semester 7\Bloggie\Bloggie Web\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\FPT\Semester 7\Bloggie\Bloggie Web\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\FPT\Semester 7\Bloggie\Bloggie Web\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\FPT\Semester 7\Bloggie\Bloggie Web\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\FPT\Semester 7\Bloggie\Bloggie Web\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\FPT\Semester 7\Bloggie\Bloggie Web\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\FPT\Semester 7\Bloggie\Bloggie Web\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+D:\FPT\Semester 7\Bloggie\Bloggie Web\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+D:\FPT\Semester 7\Bloggie\Bloggie Web\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\FPT\Semester 7\Bloggie\Bloggie Web\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\FPT\Semester 7\Bloggie\Bloggie Web\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\FPT\Semester 7\Bloggie\Bloggie Web\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\FPT\Semester 7\Bloggie\Bloggie Web\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\FPT\Semester 7\Bloggie\Bloggie Web\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\FPT\Semester 7\Bloggie\Bloggie Web\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\FPT\Semester 7\Bloggie\Bloggie Web\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\FPT\Semester 7\Bloggie\Bloggie Web\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\FPT\Semester 7\Bloggie\Bloggie Web\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\FPT\Semester 7\Bloggie\Bloggie Web\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\FPT\Semester 7\Bloggie\Bloggie Web\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\FPT\Semester 7\Bloggie\Bloggie Web\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+D:\FPT\Semester 7\Bloggie\Bloggie Web\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\FPT\Semester 7\Bloggie\Bloggie Web\bin\Debug\net6.0\Mono.TextTemplating.dll
+D:\FPT\Semester 7\Bloggie\Bloggie Web\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\FPT\Semester 7\Bloggie\Bloggie Web\bin\Debug\net6.0\System.CodeDom.dll
+D:\FPT\Semester 7\Bloggie\Bloggie Web\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\FPT\Semester 7\Bloggie\Bloggie Web\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\FPT\Semester 7\Bloggie\Bloggie Web\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\FPT\Semester 7\Bloggie\Bloggie Web\bin\Debug\net6.0\System.Memory.Data.dll
+D:\FPT\Semester 7\Bloggie\Bloggie Web\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\FPT\Semester 7\Bloggie\Bloggie Web\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\FPT\Semester 7\Bloggie\Bloggie Web\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\FPT\Semester 7\Bloggie\Bloggie Web\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+D:\FPT\Semester 7\Bloggie\Bloggie Web\bin\Debug\net6.0\System.Text.Json.dll
+D:\FPT\Semester 7\Bloggie\Bloggie Web\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\FPT\Semester 7\Bloggie\Bloggie Web\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\FPT\Semester 7\Bloggie\Bloggie Web\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\FPT\Semester 7\Bloggie\Bloggie Web\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\FPT\Semester 7\Bloggie\Bloggie Web\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\FPT\Semester 7\Bloggie\Bloggie Web\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\FPT\Semester 7\Bloggie\Bloggie Web\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\FPT\Semester 7\Bloggie\Bloggie Web\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\FPT\Semester 7\Bloggie\Bloggie Web\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\FPT\Semester 7\Bloggie\Bloggie Web\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\FPT\Semester 7\Bloggie\Bloggie Web\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\FPT\Semester 7\Bloggie\Bloggie Web\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\FPT\Semester 7\Bloggie\Bloggie Web\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+D:\FPT\Semester 7\Bloggie\Bloggie Web\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\FPT\Semester 7\Bloggie\Bloggie Web\obj\Debug\net6.0\Bloggie Web.csproj.AssemblyReference.cache
+D:\FPT\Semester 7\Bloggie\Bloggie Web\obj\Debug\net6.0\Bloggie Web.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPT\Semester 7\Bloggie\Bloggie Web\obj\Debug\net6.0\Bloggie Web.AssemblyInfoInputs.cache
+D:\FPT\Semester 7\Bloggie\Bloggie Web\obj\Debug\net6.0\Bloggie Web.AssemblyInfo.cs
+D:\FPT\Semester 7\Bloggie\Bloggie Web\obj\Debug\net6.0\Bloggie Web.csproj.CoreCompileInputs.cache
+D:\FPT\Semester 7\Bloggie\Bloggie Web\obj\Debug\net6.0\Bloggie Web.MvcApplicationPartsAssemblyInfo.cache
+D:\FPT\Semester 7\Bloggie\Bloggie Web\obj\Debug\net6.0\Bloggie Web.RazorAssemblyInfo.cache
+D:\FPT\Semester 7\Bloggie\Bloggie Web\obj\Debug\net6.0\Bloggie Web.RazorAssemblyInfo.cs
+D:\FPT\Semester 7\Bloggie\Bloggie Web\obj\Debug\net6.0\staticwebassets\msbuild.Bloggie Web.Microsoft.AspNetCore.StaticWebAssets.props
+D:\FPT\Semester 7\Bloggie\Bloggie Web\obj\Debug\net6.0\staticwebassets\msbuild.build.Bloggie Web.props
+D:\FPT\Semester 7\Bloggie\Bloggie Web\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Bloggie Web.props
+D:\FPT\Semester 7\Bloggie\Bloggie Web\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Bloggie Web.props
+D:\FPT\Semester 7\Bloggie\Bloggie Web\obj\Debug\net6.0\staticwebassets.pack.json
+D:\FPT\Semester 7\Bloggie\Bloggie Web\obj\Debug\net6.0\staticwebassets.build.json
+D:\FPT\Semester 7\Bloggie\Bloggie Web\obj\Debug\net6.0\staticwebassets.development.json
+D:\FPT\Semester 7\Bloggie\Bloggie Web\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+D:\FPT\Semester 7\Bloggie\Bloggie Web\obj\Debug\net6.0\scopedcss\bundle\Bloggie Web.styles.css
+D:\FPT\Semester 7\Bloggie\Bloggie Web\obj\Debug\net6.0\scopedcss\projectbundle\Bloggie Web.bundle.scp.css
+D:\FPT\Semester 7\Bloggie\Bloggie Web\obj\Debug\net6.0\Bloggie Web.csproj.CopyComplete
+D:\FPT\Semester 7\Bloggie\Bloggie Web\obj\Debug\net6.0\Bloggie Web.dll
+D:\FPT\Semester 7\Bloggie\Bloggie Web\obj\Debug\net6.0\refint\Bloggie Web.dll
+D:\FPT\Semester 7\Bloggie\Bloggie Web\obj\Debug\net6.0\Bloggie Web.pdb
+D:\FPT\Semester 7\Bloggie\Bloggie Web\obj\Debug\net6.0\Bloggie Web.genruntimeconfig.cache
+D:\FPT\Semester 7\Bloggie\Bloggie Web\obj\Debug\net6.0\ref\Bloggie Web.dll

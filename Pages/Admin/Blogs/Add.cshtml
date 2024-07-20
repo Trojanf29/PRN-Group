@@ -1,0 +1,101 @@
+﻿@page "/admin/blogs/add"
+@model Bloggie_Web.Pages.Admin.Blogs.AddModel
+@{
+}
+
+<h1>Add Blog Post</h1>
+
+<form method="post">
+    <div class="mb-2">
+        <label class="form-label" for="heading">Post Heading</label>
+        <input type="text" class="form-control" id="heading" asp-for="BlogPostRequest.Heading" required>
+        <span class="text-danger" asp-validation-for="BlogPostRequest.Heading"></span>
+    </div>
+    <div class="mb-2">
+        <label class="form-label" for="title">Page Title</label>
+        <input type="text" class="form-control" id="title" asp-for="BlogPostRequest.PageTitle" required>
+        <span class="text-danger" asp-validation-for="BlogPostRequest.PageTitle" ></span>
+    </div>
+    <div class="mb-2">
+        <label class="form-label" for="content">Content</label>
+        <textarea type="" class="form-control" id="content" asp-for="BlogPostRequest.Content" required></textarea>
+        <span class="text-danger" asp-validation-for="BlogPostRequest.Content"></span>
+    </div>
+    <div class="mb-2">
+        <label class="form-label" for="desc">Short Description</label>
+        <input type="text" class="form-control" id="desc" asp-for="BlogPostRequest.ShortDesc" required>
+        <span class="text-danger" asp-validation-for="BlogPostRequest.ShortDesc"></span>
+    </div>
+    <div class="mb-2">
+        <label class="form-label" for="imgUpload">Feature Image Upload</label>
+        <input type="file" class="form-control" id="imgUpload" asp-for="@Model.FeatureImg">
+        <img src="" id="featureImgDisplay" style="display: none; width: 20%; margin-top: 2rem"/>
+    </div>
+    <div class="mb-2">
+        <label class="form-label" for="imgUrl">Feature Image Url</label>
+        <input type="text" class="form-control" id="imgUrl" asp-for="BlogPostRequest.FeatureImgUrl" readonly required>
+        <span class="text-danger" asp-validation-for="BlogPostRequest.FeatureImgUrl"></span>
+    </div>
+    <div class="mb-2">
+        <label class="form-label" for="urlHandle">Url Handle</label>
+        <input type="text" class="form-control" id="urlHandle" asp-for="BlogPostRequest.UrlHandle" required>
+        <span class="text-danger" asp-validation-for="BlogPostRequest.UrlHandle"></span>
+    </div>
+
+    <div class="mb-2">
+        <label class="form-label" for="publishedDate">Published Date</label>
+        <input type="date" class="form-control" id="publishedDate" asp-for="BlogPostRequest.PublishedDate" required>
+        <span class="text-danger" asp-validation-for="BlogPostRequest.PublishedDate"></span>  @* shoud be automatic *@
+    </div>
+
+    <div class="mb-2">
+        <label class="form-label" for="tag">Tags (comma separator)</label>
+        <input type="text" class="form-control" id="tag" asp-for="Tags" required>
+        <span class="text-danger" asp-validation-for="Tags"></span>
+    </div>
+
+    <div class="mb-2">
+        <label class="form-label" for="author">Author</label>
+        <input type="text" class="form-control" id="author" asp-for="BlogPostRequest.Author" required>
+        <span class="text-danger" asp-validation-for="BlogPostRequest.Author"></span>
+    </div>
+
+    <div class="mb-2 form-check">
+        <input type="checkbox" class="form-check-input" id="isVisible" asp-for="BlogPostRequest.IsVisible">
+        <label class="form-check-label" for="isVisible">Is Visible</label>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+@section Scripts {
+    <script>
+        jQuery(function () {
+            var editor = new FroalaEditor("#content", {
+                imageUploadURL: '/api/images'
+            });
+            var imgUrl = $("#imgUrl");
+            var imgUploadFile = $("#imgUpload");
+            var imgDisplay = $("#featureImgDisplay");
+            async function getImgUrlFromApiAsync(e) {
+                let blob = e.target.files[0]
+                let data = new FormData();
+                data.append('file', blob) //argument in controller
+
+                await fetch('/api/images', {
+                    method: 'POST',
+                    headers: { 'Accept': '*/*', },
+                    body: data
+                })
+                    .then(response => response.json())
+                    .then(result => {
+                        imgUrl.val(result.link);
+                        imgDisplay.css('display', 'block');
+                        imgDisplay.attr("src", result.link);
+                    });
+            };
+
+            imgUploadFile.on('change', getImgUrlFromApiAsync);
+        })
+    </script>
+}

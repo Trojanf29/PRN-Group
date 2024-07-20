@@ -1,0 +1,34 @@
+﻿@page
+@model Bloggie_Web.Pages.RegisterModel
+@{
+}
+
+
+<div class="row justify-content-center">
+    <div class="col-12 col-lg-6">
+        <h1 class="mb-3 h3">Register to Bloggie!</h1>
+        <partial name="_Notification" />
+
+        <form method="post">
+            <div class="mb-3">
+                <label class="form-label" for="username">Username</label>
+                <input type="text" class="form-control" id="username" asp-for="Register.Username" required />
+                <span class="text-danger" asp-validation-for="Register.Username"></span>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label" for="email">Email</label>
+                <input type="email" class="form-control" id="email" asp-for="Register.Email" required />
+                <span class="text-danger" asp-validation-for="Register.Email"></span>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label" for="password">Password</label>
+                <input type="password" class="form-control" id="password" asp-for="Register.Password" required minlength="6"/>
+                <span class="text-danger" asp-validation-for="Register.Password"></span>
+
+            </div>
+            <button class="btn btn-primary">Register</button>
+        </form> 
+    </div>
+</div>

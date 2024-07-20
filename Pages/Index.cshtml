@@ -1,0 +1,48 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Bloggie";
+}
+
+<div class="row align-items-md-center g-5 py-5">
+    <div class="col-12 col-lg-6">
+        <h1 class="display-5 fw-bold lh-1 mb-2">
+            Bloggie - The Dev Blog
+        </h1>
+        <p class="lead">The home of the coding blog</p>
+    </div>
+    <div class="col-12 col-lg-6">
+        <img src="https://images.pexels.com/photos/7238759/pexels-photo-7238759.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
+        class="d-block mx-lg-auto img-fluid" width="100%"/>
+    </div>
+</div>
+
+<div class="row justify-content-center d-flex flex-wrap">
+    @if (Model.BlogPosts != null && Model.BlogPosts.Any())
+    {
+        foreach (var blog in Model.BlogPosts)
+        {
+            <div class="col-md-5 flex-grow-1 bg-light m-3" style="padding: 0;">
+                <div class="mb-3">
+                    <img src="@blog.FeatureImgUrl" alt="@blog.Heading" class="d-block img-fluid" width="100%"/>
+                    <div class="px-3 py-3">
+                        <h2 class="mb-2 lead fw-bold">@blog.Heading</h2>
+                        @foreach (var tag in blog.Tags)
+                        {
+                            <a class="fw-normal badge bg-primary" style="padding: 6px;" href="/tag/@tag.Name">@tag.Name</a>
+                        }
+                        <p class="mb-2 lead fs-5 fw-normal">
+                            Author: @blog.Author
+                        </p>
+                        <p class="fw-normal mb-2 lead fs-6">
+                            Published on: @blog.PublishedDate.ToString("dd/MM/yyyy")
+                        </p>
+                        <a href="/blog/@blog.UrlHandle" class="btn btn-dark">Read more!</a>
+                    </div>
+                </div>
+            </div>
+        }
+    }
+</div>
+
+

@@ -1,0 +1,23 @@
+﻿@using Bloggie_Web.Models.Shared;
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    var notification = (Notification)ViewData["Notification"];
+    if (notification != null)
+    {
+        var notificationClass = "";
+
+        switch (notification.Status)
+        {
+            case NotificationType.Success:
+                notificationClass = "alert-success"; break;
+            case NotificationType.Error:
+                notificationClass = "alert-danger"; break;
+        }
+        <div class="alert @notificationClass alert-dismissible fade show mb-4" role="alert">
+            @Html.Raw(notification.Message)
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-lable="Close"></button>
+        </div>
+    }
+}

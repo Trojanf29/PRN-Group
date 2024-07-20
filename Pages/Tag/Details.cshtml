@@ -1,0 +1,31 @@
+﻿@page "/tag/{tagName}"
+@model Bloggie_Web.Pages.Tag.DetailsModel
+@{
+}
+<div class="row justify-content-center d-flex flex-wrap">
+    @if (Model.Blogs != null && Model.Blogs.Any())
+    {
+        foreach (var blog in Model.Blogs)
+        {
+            <div class="col-md-5 flex-grow-1 bg-light m-3" style="padding: 0;">
+                <div class="mb-3">
+                    <img src="@blog.FeatureImgUrl" alt="@blog.Heading" class="d-block img-fluid" width="100%" />
+                    <div class="px-3 py-3">
+                        <h2 class="mb-2 lead fw-bold">@blog.Heading</h2>
+                        @foreach (var tag in blog.Tags)
+                        {
+                            <a class="fw-normal badge bg-primary" style="padding: 6px;" href="/tag/@tag.Name">@tag.Name</a>
+                        }
+                        <p class="mb-2 lead fs-5 fw-normal">
+                            Author: @blog.Author
+                        </p>
+                        <p class="fw-normal mb-2 lead fs-6">
+                            Published on: @blog.PublishedDate.ToString("dd/MM/yyyy")
+                        </p>
+                        <a href="/blog/@blog.UrlHandle" class="btn btn-dark">Read more!</a>
+                    </div>
+                </div>
+            </div>
+        }
+    }
+</div>

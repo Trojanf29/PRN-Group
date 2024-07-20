@@ -1,0 +1,112 @@
+﻿@page "/admin/users"
+@model Bloggie_Web.Pages.Admin.Users.IndexModel
+@{
+}
+<h1>Users Management</h1>
+
+<div class="mb-3 d-flex justify-content-end">
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#addUserModal">
+        Add User
+    </button>
+</div>
+<form method="post" asp-page-handler="delete" id="deleteForm">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Username</th>
+                <th>Email</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var user in Model.Users)
+            {
+                <tr>
+                    <th>@user.Username</th>
+                    <th>@user.Email</th>
+                    <th>
+                        <a class="btn btn-danger user-delete-btn" data-id="@user.Id">
+                            Delete
+                        </a>
+                    </th>
+                </tr>
+            }
+        </tbody>
+        <input type="hidden" asp-for="SeletedUserId" id="selectedUserId"/>
+    </table>
+</form>
+
+<form method="post">
+    <!-- Modal -->
+    <div class="modal fade" id="addUserModal" tabindex="-1" aria-labelledby="addUserModal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Add User</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="mb-3">
+                        <label class="form-label">Username</label>
+                        <input type="text" class="form-control" asp-for="AddedUser.Username" required/>
+                        <span class="text-danger" asp-validation-for="AddedUser.Username"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Email</label>
+                        <input type="email" class="form-control" asp-for="AddedUser.Email" required/>
+                        <span class="text-danger" asp-validation-for="AddedUser.Email"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Password</label>
+                        <input type="password" class="form-control" asp-for="AddedUser.Password" required/>
+                        <span class="text-danger" asp-validation-for="AddedUser.Password"></span>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="User" 
+                        id="userCb" checked disabled>
+                        <label class="form-check-label" for="userCb">
+                            Is User
+                        </label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox"
+                        id="adminCb" asp-for="AddedUser.IsAdmin">
+                        <label class="form-check-label" for="adminCb">
+                            Is Admin
+                        </label>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary">Save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+
+
+@section Scripts {
+    <script>
+        jQuery(function () {
+            var userDeleteBtn = $(".user-delete-btn");
+            var selectedUserId = $("#selectedUserId");
+            var deleteForm = $('#deleteForm');
+
+
+            userDeleteBtn.each(function () {
+                $(this).on('click', function () {
+                    const userId = $(this).data('id');
+                    selectedUserId.val(userId);
+                    deleteForm.submit();
+                });
+            });
+        });
+    </script>
+}

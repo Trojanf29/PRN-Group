@@ -1,0 +1,36 @@
+﻿@page "/admin/blogs"
+@model Bloggie_Web.Pages.Admin.Blogs.ListModel
+@{
+    int count = 0;
+}
+
+<h1>Blog Posts</h1>
+
+<partial name="_Notification">
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Heading</th>
+                <th scope="col">Page Title</th>
+                <th scope="col">Author</th>
+                <th scope="col">Options</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var post in Model.BlogPosts)
+            {
+                count++;
+                <tr>
+                    <th scope="row">@count</th>
+                    <td>@post.Heading</td>
+                    <td>@post.PageTitle</td>
+                    <td>@post.Author</td>
+                    <td>
+                        <a asp-page="/Admin/Blogs/Edit" asp-route-blogId="@post.Id">Edit</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
