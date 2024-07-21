@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "j6OaJDfPTtMjhzkPSU7ryL3I3erTp38ILOMGXzgcHhxLDnWjSUU+zN2pt1UcofPVsZ84xH8411SlAhQoOa1UfA==",
+  "dgSpecHash": "vqvzuOgz9fy3pk8YiArYBeLQSGnTr1Z6vLj2Decv1vy16SW7hZz2AWtANR62RbWKL1uo4Hd0bOS47iC2EfvpOg==",
   "success": true,
   "projectFilePath": "D:\\FPT\\Semester 7\\Bloggie\\Bloggie Web\\Bloggie Web.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\PC\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\cloudinarydotnet\\1.22.0\\cloudinarydotnet.1.22.0.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.authentication.google\\6.0.21\\microsoft.aspnetcore.authentication.google.6.0.21.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.21\\microsoft.aspnetcore.cryptography.internal.6.0.21.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\6.0.21\\microsoft.aspnetcore.cryptography.keyderivation.6.0.21.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

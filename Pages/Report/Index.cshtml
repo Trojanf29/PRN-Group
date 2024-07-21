@@ -1,0 +1,74 @@
+﻿@page
+@model Bloggie_Web.Pages.Report.IndexModel
+@{
+}
+
+<div class="container">
+    <h1 class="mb-4">Blog Post Analytics</h1>
+
+    <div class="row mb-4">
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="card text-white bg-primary mb-3">
+                <div class="card-header">Total Blog Posts</div>
+                <div class="card-body">
+                    <h5 class="card-title">@Model.TotalBlogPosts</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="card text-white bg-success mb-3">
+                <div class="card-header">Total Likes</div>
+                <div class="card-body">
+                    <h5 class="card-title">@Model.TotalLikes</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="card text-white bg-info mb-3">
+                <div class="card-header">Total Comments</div>
+                <div class="card-body">
+                    <h5 class="card-title">@Model.TotalComments</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mb-4">
+        <div class="col-12">
+            <h2>Posts by Tag</h2>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Tag</th>
+                        <th>Number of Posts</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var tag in Model.PostsByTag)
+                    {
+                        <tr>
+                            <td>@tag.Key.Name</td>
+                            <td>@tag.Value</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="row mb-4">
+        <div class="col-12">
+            <h2>Recent Posts</h2>
+            <ul class="list-group">
+                @foreach (var post in Model.RecentPosts)
+                {
+                    <li class="list-group-item">
+                        <h5>@post.Heading</h5>
+                        <p>@post.ShortDesc</p>
+                        <small>@post.PublishedDate.ToString("MMMM dd, yyyy")</small>
+                    </li>
+                }
+            </ul>
+        </div>
+    </div>
+</div>

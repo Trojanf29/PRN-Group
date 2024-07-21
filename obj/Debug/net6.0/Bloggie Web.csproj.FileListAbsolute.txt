@@ -186,3 +186,4 @@ D:\FPT\Semester 7\Bloggie\Bloggie Web\obj\Debug\net6.0\refint\Bloggie Web.dll
 D:\FPT\Semester 7\Bloggie\Bloggie Web\obj\Debug\net6.0\Bloggie Web.pdb
 D:\FPT\Semester 7\Bloggie\Bloggie Web\obj\Debug\net6.0\Bloggie Web.genruntimeconfig.cache
 D:\FPT\Semester 7\Bloggie\Bloggie Web\obj\Debug\net6.0\ref\Bloggie Web.dll
+D:\FPT\Semester 7\Bloggie\Bloggie Web\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.Google.dll

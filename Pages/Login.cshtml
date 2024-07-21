@@ -22,7 +22,19 @@
                 <span class="text-danger" asp-validation-for="Login.Password"></span>
 
             </div>
-            <button class="btn btn-primary">Login</button>
+            <button class="btn btn-primary" name="action" asp-page-handler="Login" value="Login">Login</button>
         </form>
     </div>
+
+
+
+    
+    <form method="post">
+        <div class="row justify-content-center">
+            <div class="col-12 col-lg-6">
+                <h1 class="mb-3 h3">Login with Google</h1>
+                <button class="btn btn-primary" name="action" asp-page-handler="OAuth" value="OAuth">Sign in with Google</button>
+            </div>
+        </div>
+    </form>
 </div>

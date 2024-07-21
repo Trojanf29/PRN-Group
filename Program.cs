@@ -1,4 +1,6 @@
 using Bloggie_Web.Configure;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authentication.Google;
 
 namespace Bloggie_Web
 {
@@ -14,6 +16,18 @@ namespace Bloggie_Web
                 .AddUserIdentityConfig()
                 .AddIdentityUserOptions()
                 .AddConfigureApplicationCookie();
+
+            builder.Services.AddAuthentication(options =>
+            {
+                options.DefaultScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+                options.DefaultChallengeScheme = GoogleDefaults.AuthenticationScheme;
+            })
+            .AddCookie()
+            .AddGoogle(options =>
+            {
+                options.ClientId = builder.Configuration["Google:ClientId"];
+                options.ClientSecret = builder.Configuration["Google:ClientSecret"];
+            });
 
             builder.Services.AddRazorPages();
             builder.Services.AddControllers();
